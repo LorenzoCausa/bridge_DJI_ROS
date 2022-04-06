@@ -718,7 +718,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //In this demo, we test the YUV data by saving it into JPG files.
         //DJILog.d(TAG, "onYuvDataReceived " + dataSize);
 
-        if (count++ % 1 == 0 && yuvFrame != null & linkedListSize<5) {
+        if (count++ % 1 == 0 && yuvFrame != null & linkedListSize<2) {
             linkedListSize=linkedListSize+1;
             final byte[] bytes = new byte[dataSize];
             yuvFrame.get(bytes);
@@ -920,7 +920,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                 }
             }
             if(bos.size()>51000){
-                if(qualityImage>11){
+                if(qualityImage>1){
                     qualityImage=qualityImage-1;
                 }
             }
@@ -929,9 +929,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //byteArrayImage = bos.toByteArray();
         //imagesList.addLast(byteArrayImage);
 
-        Log.d("MY TAG","qualityImage: "+qualityImage);
-        Log.d("MY TAG","list size: "+linkedListSize+" actual size: "+imagesList.size());
-        Log.d("MY TAG","bos size: "+bos.size());
+        //Log.d("MY TAG","qualityImage: "+qualityImage);
+        //Log.d("MY TAG","list size: "+linkedListSize+" actual size: "+imagesList.size());
+        //Log.d("MY TAG","bos size: "+bos.size());
         bos.reset();
 
         try {
@@ -1175,7 +1175,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             }
 
             while (true) {
-                if(imagesList.size()!=0 & videostreamPreviewTtView.getVisibility()!= View.VISIBLE) {
+                if(imagesList.size()>0 & videostreamPreviewTtView.getVisibility()!= View.VISIBLE) {
 
                     byte[] img= (byte[]) imagesList.getFirst();
                     client.execute(img);

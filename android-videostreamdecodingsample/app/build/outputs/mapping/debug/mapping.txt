@@ -1,6 +1,6 @@
 # compiler: R8
 # compiler_version: 3.1.66
-# min_api: 24
+# min_api: 19
 # pg_map_id: a6f99b5
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}

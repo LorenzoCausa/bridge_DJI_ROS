@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2
+# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,8 +116,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2
-# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/proguard-rules.pro
+# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2
+# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/proguard-rules.pro
 -keepattributes Exceptions,InnerClasses,*Annotation*,Signature,EnclosingMethod
 
 -dontoptimize
@@ -233,8 +233,8 @@
 -keep class android.arch.** { *; }
 -dontwarn android.arch.**
 -ignorewarnings
-# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/proguard-rules.pro
-# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
+# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/proguard-rules.pro
+# The proguard configuration file for the following section is /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
 -keep class com.dji.videostreamdecodingsample.ConnectionActivity { <init>(); }
@@ -300,7 +300,7 @@
 -keepclassmembers class * { *** onClick(android.view.View); }
 
 
-# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
+# End of content from /home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
 # The proguard configuration file for the following section is /home/lorenzocausa/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #

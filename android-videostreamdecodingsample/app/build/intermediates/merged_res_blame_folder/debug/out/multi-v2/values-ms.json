@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/home/lorenzocausa/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/values-ms/values-ms.xml",
