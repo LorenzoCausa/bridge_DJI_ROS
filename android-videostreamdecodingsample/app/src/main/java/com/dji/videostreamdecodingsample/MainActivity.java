@@ -718,7 +718,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //In this demo, we test the YUV data by saving it into JPG files.
         //DJILog.d(TAG, "onYuvDataReceived " + dataSize);
 
-        if (count++ % 1 == 0 && yuvFrame != null & linkedListSize<2) {
+        if (count++ % 1 == 0 && yuvFrame != null & linkedListSize<1) {
             linkedListSize=linkedListSize+1;
             final byte[] bytes = new byte[dataSize];
             yuvFrame.get(bytes);
@@ -932,12 +932,12 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //Log.d("MY TAG","qualityImage: "+qualityImage);
         //Log.d("MY TAG","list size: "+linkedListSize+" actual size: "+imagesList.size());
         //Log.d("MY TAG","bos size: "+bos.size());
-        bos.reset();
 
         try {
             // byteArrayOutputStream.flush();
             // byteArrayOutputStream.close();
             bos.flush();
+            bos.reset();
             bos.close();
         } catch (IOException e) {
             e.printStackTrace();
