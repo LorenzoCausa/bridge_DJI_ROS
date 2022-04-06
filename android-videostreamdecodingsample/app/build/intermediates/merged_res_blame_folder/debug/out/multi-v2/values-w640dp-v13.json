@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lorenzocausa/Desktop/bridge_DJI_ROS2/android-videostreamdecodingsample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w640dp-v13/values-w640dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/lorenzocausa/.gradle/caches/transforms-3/8c268f10e4c07c7f022ffc44c3d26fb2/transformed/jetified-dji-sdk-4.15.1/res/values-w640dp-v13/values-w640dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,120,182,243,305",
+                        "endColumns": "64,61,60,61,57",
+                        "endOffsets": "115,177,238,300,358"
+                    }
+                }
+            ]
+        }
+    ]
+}
