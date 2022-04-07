@@ -129,8 +129,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private StringBuilder stringBuilder;
     private int videoViewWidth;
     private int videoViewHeight;
-    private int count;
-    private Bitmap mBitmap;
     private String ip_address;
     private int thermal_visual=0;
     private Button thermalVisualButton;
@@ -140,6 +138,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private int linkedListSize=0;
     private int qualityImage=10;
     private ToggleButton mMotorsButton;
+    private boolean sendingFrame=false;
+    private SocketClient imgClient;
 
 
     @Override
@@ -209,7 +209,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         // Thread per gestire i msg del socket
         Thread myThread = new Thread(new MyServerThread());
         ClientThread sendMsg = new ClientThread(ip_address,8081);
-        SendImgThread sendImg = new SendImgThread(ip_address,8888);
+        //SendImgThread sendImg = new SendImgThread(ip_address,8888);
+        imgClient = new SocketClient(ip_address,8888);
 
         if (isM300Product()) {
             OcuSyncLink ocuSyncLink = VideoDecodingApplication.getProductInstance().getAirLink().getOcuSyncLink();
@@ -228,7 +229,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         myThread.start();
         sendMsg.start();
-        sendImg.start();
+        //sendImg.start();
     }
 
     public static boolean isM300Product() {
@@ -718,8 +719,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //In this demo, we test the YUV data by saving it into JPG files.
         //DJILog.d(TAG, "onYuvDataReceived " + dataSize);
 
-        if (count++ % 1 == 0 && yuvFrame != null & linkedListSize<1) {
-            linkedListSize=linkedListSize+1;
+        if ( yuvFrame != null & sendingFrame==false) {
+            sendingFrame=true;
+            //linkedListSize=linkedListSize+1;
             final byte[] bytes = new byte[dataSize];
             yuvFrame.get(bytes);
 
@@ -908,11 +910,12 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             if(qualityImage>11) {
                 qualityImage = qualityImage - 10;
             }
-            linkedListSize=linkedListSize-1;
+            //linkedListSize=linkedListSize-1;
         }
         else {
             byteArrayImage = bos.toByteArray();
-            imagesList.addLast(byteArrayImage);
+            //imagesList.addLast(byteArrayImage);
+            imgClient.execute(byteArrayImage);
 
             if(bos.size()<50000){
                 if(qualityImage<100){
@@ -926,8 +929,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             }
         }
 
-        //byteArrayImage = bos.toByteArray();
-        //imagesList.addLast(byteArrayImage);
 
         //Log.d("MY TAG","qualityImage: "+qualityImage);
         //Log.d("MY TAG","list size: "+linkedListSize+" actual size: "+imagesList.size());
@@ -942,6 +943,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         } catch (IOException e) {
             e.printStackTrace();
         }
+        sendingFrame=false;
     }
 
     public static Bitmap getScaledImage(byte[] data, int width, int height, int scalingFactor) {
