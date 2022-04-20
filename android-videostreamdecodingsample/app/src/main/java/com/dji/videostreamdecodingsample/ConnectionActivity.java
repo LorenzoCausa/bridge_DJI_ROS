@@ -27,8 +27,11 @@ import androidx.core.content.ContextCompat;
 
 import dji.sdk.sdkmanager.DJISDKInitEvent;
 
+import java.net.InetAddress;
+import java.net.NetworkInterface;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -290,7 +293,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
 
         //Show on screen in a TextView widget the ip address of the Android device
         WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
-        String ipAddress = Formatter.formatIpAddress(wifiManager.getConnectionInfo().getIpAddress());
+        String ipAddress = getIPAddress(true);
         mTextViewIP.setText("Your Device IP Address: " + ipAddress);
 
         mAndroidBridge.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -316,6 +319,33 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
             }
         });
 
+    }
+
+    private String getIPAddress(boolean useIPv4) {
+        try {
+            List<NetworkInterface> interfaces = Collections.list(NetworkInterface.getNetworkInterfaces());
+            for (NetworkInterface intf : interfaces) {
+                List<InetAddress> addrs = Collections.list(intf.getInetAddresses());
+                for (InetAddress addr : addrs) {
+                    if (!addr.isLoopbackAddress()) {
+                        String sAddr = addr.getHostAddress();
+                        //boolean isIPv4 = InetAddressUtils.isIPv4Address(sAddr);
+                        boolean isIPv4 = sAddr.indexOf(':') < 0;
+
+                        if (useIPv4) {
+                            if (isIPv4) return sAddr;
+                        } else {
+                            if (!isIPv4) {
+                                int delim = sAddr.indexOf('%'); // drop ip6 zone suffix
+                                return delim < 0 ? sAddr.toUpperCase() : sAddr.substring(0, delim).toUpperCase();
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (Exception ex) {
+        } // for now eat exceptions
+        return "";
     }
 
     private void updateTitleBar() {

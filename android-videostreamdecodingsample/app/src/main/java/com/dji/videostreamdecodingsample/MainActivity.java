@@ -286,7 +286,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                             x = stateData.getPositionX();
                             y = stateData.getPositionY();
 
-                            mTextView.setText("Yaw : " + yaw + ", Pitch : " + pitch + ", Roll : " + roll + "\n" + ", PosX : " + positionX +
+                            mTextView.setText("Yaw : " + yaw + ", Pitch : " + pitch + ", Roll : " + roll + "\n" + "PosX : " + positionX +
                                     ", PosY : " + positionY +
                                     ", PosZ : " + positionZ);
                         }

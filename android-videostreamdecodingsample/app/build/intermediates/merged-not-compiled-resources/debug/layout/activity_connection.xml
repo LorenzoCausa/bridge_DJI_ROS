@@ -20,7 +20,7 @@
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-15dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="25dp"
         android:layout_toEndOf="@+id/edittext_bridge_ip_addr"
         android:text="Set" />
 
@@ -32,7 +32,7 @@
         android:layout_marginStart="23dp"
         android:layout_marginLeft="65dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="25dp"
         android:layout_toEndOf="@+id/enable_android_bridge"
         android:hint="Android Bridge IP"
         android:textColor="@color/colorBlack"
@@ -44,8 +44,8 @@
         android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/round_btn"
         android:textColor="@color/colorYellow"
         android:textOff="Android    Bridge"
@@ -56,12 +56,9 @@
         android:layout_width="193dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_open"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="105dp"
+        android:layout_marginTop="70dp"
         android:hint="Insert PC IP address"
         android:textColor="@color/colorBlack"
         android:textSize="20dp" />
@@ -70,56 +67,58 @@
         android:id="@+id/text_connection_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:gravity="center"
         android:text="Status: No Product Connected"
         android:textColor="@android:color/black"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_alignBottom="@+id/text_product_info"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="89dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_product_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
+        android:layout_alignTop="@+id/text_connection_status"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
         android:text="@string/product_information"
         android:textColor="@android:color/black"
         android:textSize="20dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_model_available"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/text_product_info"
+        android:layout_marginTop="50dp"
         android:gravity="center"
-        android:layout_marginTop="300dp"
         android:text="@string/model_not_available"
-        android:textSize="15dp"/>
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/btn_open"
         android:layout_width="150dp"
         android:layout_height="55dp"
+        android:layout_alignTop="@+id/text_model_available"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/round_btn"
         android:text="Open"
         android:textColor="@color/colorYellow"
         android:textSize="20dp" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="430dp"
-        android:textSize="15dp"
-        android:id="@+id/textView2" />
+        android:textSize="15dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -127,7 +126,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="50dp"
         android:text="Bridge DJI ROS"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/colorBlack"

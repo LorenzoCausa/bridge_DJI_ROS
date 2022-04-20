@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dji.videostreamdecodingsample.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_title_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/title_dark">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:text="@string/title_main_activity"/>
+
+    </RelativeLayout>
+
+    <TextureView
+        android:id="@+id/livestream_preview_ttv"
+        android:layout_width="750dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/main_title_rl"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="74dp"
+        android:alpha="50"
+        android:visibility="visible" />
+
+    <SurfaceView
+        android:id="@+id/livestream_preview_sf"
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/main_title_rl"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/main_title_rl"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_main_screen_texture"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Demo TextureView"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activity_main_screen_surface_with_own_decoder"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Demo custom decoder"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activity_main_screen_surface"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Demo SurfaceView"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textview_simulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="575dp"
+        android:text="Simulator is off." />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="243dp"
+        android:layout_below="@+id/textview_simulator"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_start_simulator"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:background="@drawable/round_btn"
+            android:text="Start Simulator"
+            android:textColor="@color/colorWhite"
+            android:textOff="Start Simulator"
+            android:textOn="Stop Simulator" />
+
+        <ToggleButton
+            android:id="@+id/activity_main_screen_shot"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btn_land"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Start Streaming"
+            android:textColor="@color/colorWhite"
+            android:textOff="Start Streaming"
+            android:textOn="Stop Streaming" />
+
+        <Button
+            android:id="@+id/btn_land"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btn_take_off"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Land"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btn_take_off"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/swtc_enable_virtual_stick"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Take Off"
+            android:textColor="@color/colorWhite" />
+
+        <ToggleButton
+            android:id="@+id/swtc_enable_virtual_stick"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btn_start_simulator"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="VCM Enable"
+            android:textColor="@color/colorWhite"
+            android:textOff="VCM Enable"
+            android:textOn="VCM Disable" />
+
+        <Button
+            android:id="@+id/mythermalVisualButton"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/activity_main_screen_shot"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Mode"
+            android:textColor="@color/colorWhite" />
+
+        <ToggleButton
+            android:id="@+id/btnMotors"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/mythermalVisualButton"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Turn motors On"
+            android:textColor="@color/colorWhite"
+            android:textOff="Turn motors On"
+            android:textOn="Turn motors Off" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/target_ttv"
+        android:layout_width="327dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/livestream_preview_ttv"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="747dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="673dp"
+        android:text="" />
+
+
+</RelativeLayout>

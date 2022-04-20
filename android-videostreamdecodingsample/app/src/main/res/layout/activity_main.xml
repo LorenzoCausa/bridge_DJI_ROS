@@ -24,15 +24,15 @@
 
     <TextureView
         android:id="@+id/livestream_preview_ttv"
-        android:layout_width="750dp"
-        android:layout_height="450dp"
+        android:layout_width="375dp"
+        android:layout_height="225dp"
         android:layout_below="@id/main_title_rl"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="74dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
         android:alpha="50"
         android:visibility="visible" />
 
@@ -86,30 +86,29 @@
 
     <TextView
         android:id="@+id/textview_simulator"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="575dp"
+        android:layout_below="@+id/main_title_rl"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/livestream_preview_ttv"
         android:text="Simulator is off." />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="243dp"
-        android:layout_below="@+id/textview_simulator"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
         android:orientation="horizontal">
 
         <ToggleButton
             android:id="@+id/btn_start_simulator"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:background="@drawable/round_btn"
             android:text="Start Simulator"
             android:textColor="@color/colorWhite"
@@ -119,11 +118,11 @@
         <ToggleButton
             android:id="@+id/activity_main_screen_shot"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/btn_land"
             android:layout_alignParentStart="true"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="Start Streaming"
             android:textColor="@color/colorWhite"
@@ -133,9 +132,9 @@
         <Button
             android:id="@+id/btn_land"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/btn_take_off"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="Land"
             android:textColor="@color/colorWhite" />
@@ -143,9 +142,9 @@
         <Button
             android:id="@+id/btn_take_off"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/swtc_enable_virtual_stick"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="Take Off"
             android:textColor="@color/colorWhite" />
@@ -153,9 +152,9 @@
         <ToggleButton
             android:id="@+id/swtc_enable_virtual_stick"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/btn_start_simulator"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="VCM Enable"
             android:textColor="@color/colorWhite"
@@ -165,9 +164,9 @@
         <Button
             android:id="@+id/mythermalVisualButton"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/activity_main_screen_shot"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="Mode"
             android:textColor="@color/colorWhite" />
@@ -175,9 +174,9 @@
         <ToggleButton
             android:id="@+id/btnMotors"
             android:layout_width="120dp"
-            android:layout_height="35dp"
+            android:layout_height="25dp"
             android:layout_below="@+id/mythermalVisualButton"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
             android:text="Turn motors On"
             android:textColor="@color/colorWhite"
@@ -185,23 +184,18 @@
             android:textOn="Turn motors Off" />
 
 
-
     </RelativeLayout>
 
     <TextView
         android:id="@+id/target_ttv"
         android:layout_width="327dp"
-        android:layout_height="64dp"
-        android:layout_below="@+id/livestream_preview_ttv"
+        android:layout_height="50dp"
         android:layout_alignParentEnd="true"
 
-
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="747dp"
-        android:layout_marginRight="300dp"
-        android:layout_marginBottom="673dp"
-        android:text="TextView" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="" />
 
 
 </RelativeLayout>
