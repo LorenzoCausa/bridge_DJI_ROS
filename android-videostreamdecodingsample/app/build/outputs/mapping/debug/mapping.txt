@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 3.1.66
 # min_api: 19
-# pg_map_id: 1273bbb
+# pg_map_id: 18c1c19
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"1.0"}
 android.support.v4.app.INotificationSideChannel$Default -> android.support.v4.app.INotificationSideChannel$Default:
@@ -15651,22 +15651,22 @@ com.dji.videostreamdecodingsample.MainActivity -> com.dji.videostreamdecodingsam
     72:141:void <init>() -> <init>
     72:72:android.widget.TextView access$000(com.dji.videostreamdecodingsample.MainActivity) -> access$000
     72:72:void access$100(com.dji.videostreamdecodingsample.MainActivity,java.lang.String) -> access$100
-    72:72:android.widget.ToggleButton access$1000(com.dji.videostreamdecodingsample.MainActivity) -> access$1000
-    72:72:long access$1100(com.dji.videostreamdecodingsample.MainActivity) -> access$1100
-    72:72:long access$1102(com.dji.videostreamdecodingsample.MainActivity,long) -> access$1102
-    72:72:java.lang.String access$1200() -> access$1200
-    72:72:com.dji.videostreamdecodingsample.MainActivity$DemoType access$1300() -> access$1300
-    72:72:dji.sdk.codec.DJICodecManager access$1400(com.dji.videostreamdecodingsample.MainActivity) -> access$1400
-    72:72:dji.sdk.codec.DJICodecManager access$1402(com.dji.videostreamdecodingsample.MainActivity,dji.sdk.codec.DJICodecManager) -> access$1402
-    72:72:int access$1500(com.dji.videostreamdecodingsample.MainActivity) -> access$1500
-    72:72:int access$1502(com.dji.videostreamdecodingsample.MainActivity,int) -> access$1502
+    72:72:dji.common.flightcontroller.FlightControllerState access$1000(com.dji.videostreamdecodingsample.MainActivity) -> access$1000
+    72:72:dji.common.flightcontroller.FlightControllerState access$1002(com.dji.videostreamdecodingsample.MainActivity,dji.common.flightcontroller.FlightControllerState) -> access$1002
+    72:72:android.widget.ToggleButton access$1100(com.dji.videostreamdecodingsample.MainActivity) -> access$1100
+    72:72:long access$1200(com.dji.videostreamdecodingsample.MainActivity) -> access$1200
+    72:72:long access$1202(com.dji.videostreamdecodingsample.MainActivity,long) -> access$1202
+    72:72:java.lang.String access$1300() -> access$1300
+    72:72:com.dji.videostreamdecodingsample.MainActivity$DemoType access$1400() -> access$1400
+    72:72:dji.sdk.codec.DJICodecManager access$1500(com.dji.videostreamdecodingsample.MainActivity) -> access$1500
+    72:72:dji.sdk.codec.DJICodecManager access$1502(com.dji.videostreamdecodingsample.MainActivity,dji.sdk.codec.DJICodecManager) -> access$1502
     72:72:int access$1600(com.dji.videostreamdecodingsample.MainActivity) -> access$1600
     72:72:int access$1602(com.dji.videostreamdecodingsample.MainActivity,int) -> access$1602
-    72:72:void access$1700(com.dji.videostreamdecodingsample.MainActivity,byte[],int,int) -> access$1700
+    72:72:int access$1700(com.dji.videostreamdecodingsample.MainActivity) -> access$1700
+    72:72:int access$1702(com.dji.videostreamdecodingsample.MainActivity,int) -> access$1702
     72:72:void access$1800(com.dji.videostreamdecodingsample.MainActivity,byte[],int,int) -> access$1800
     72:72:void access$1900(com.dji.videostreamdecodingsample.MainActivity,byte[],int,int) -> access$1900
-    72:72:float access$2000(com.dji.videostreamdecodingsample.MainActivity) -> access$2000
-    72:72:float access$2002(com.dji.videostreamdecodingsample.MainActivity,float) -> access$2002
+    72:72:void access$2000(com.dji.videostreamdecodingsample.MainActivity,byte[],int,int) -> access$2000
     72:72:float access$202(com.dji.videostreamdecodingsample.MainActivity,float) -> access$202
     72:72:float access$2100(com.dji.videostreamdecodingsample.MainActivity) -> access$2100
     72:72:float access$2102(com.dji.videostreamdecodingsample.MainActivity,float) -> access$2102
@@ -15674,8 +15674,8 @@ com.dji.videostreamdecodingsample.MainActivity -> com.dji.videostreamdecodingsam
     72:72:float access$2202(com.dji.videostreamdecodingsample.MainActivity,float) -> access$2202
     72:72:float access$2300(com.dji.videostreamdecodingsample.MainActivity) -> access$2300
     72:72:float access$2302(com.dji.videostreamdecodingsample.MainActivity,float) -> access$2302
-    72:72:dji.common.flightcontroller.FlightControllerState access$2400(com.dji.videostreamdecodingsample.MainActivity) -> access$2400
-    72:72:dji.common.flightcontroller.FlightControllerState access$2402(com.dji.videostreamdecodingsample.MainActivity,dji.common.flightcontroller.FlightControllerState) -> access$2402
+    72:72:float access$2400(com.dji.videostreamdecodingsample.MainActivity) -> access$2400
+    72:72:float access$2402(com.dji.videostreamdecodingsample.MainActivity,float) -> access$2402
     72:72:java.util.LinkedList access$2500(com.dji.videostreamdecodingsample.MainActivity) -> access$2500
     72:72:int access$2600(com.dji.videostreamdecodingsample.MainActivity) -> access$2600
     72:72:int access$2602(com.dji.videostreamdecodingsample.MainActivity,int) -> access$2602
@@ -15686,78 +15686,78 @@ com.dji.videostreamdecodingsample.MainActivity -> com.dji.videostreamdecodingsam
     72:72:void access$700(com.dji.videostreamdecodingsample.MainActivity) -> access$700
     72:72:android.view.TextureView access$800(com.dji.videostreamdecodingsample.MainActivity) -> access$800
     72:72:android.view.SurfaceView access$900(com.dji.videostreamdecodingsample.MainActivity) -> access$900
-    758:791:void change_display() -> change_display
-    1008:1015:void displayPath(java.lang.String) -> displayPath
-    959:963:android.graphics.Bitmap getScaledImage(byte[],int,int,int) -> getScaledImage
-    968:1005:void handleYUVClick() -> handleYUVClick
+    759:792:void change_display() -> change_display
+    1009:1016:void displayPath(java.lang.String) -> displayPath
+    960:964:android.graphics.Bitmap getScaledImage(byte[],int,int,int) -> getScaledImage
+    969:1006:void handleYUVClick() -> handleYUVClick
     258:297:void initFlightController() -> initFlightController
-    653:714:void initPreviewerSurfaceView() -> initPreviewerSurfaceView
-    613:647:void initPreviewerTextureView() -> initPreviewerTextureView
+    654:715:void initPreviewerSurfaceView() -> initPreviewerSurfaceView
+    614:648:void initPreviewerTextureView() -> initPreviewerTextureView
     154:174:void initSurfaceOrTextureView() -> initSurfaceOrTextureView
-    300:495:void initUi() -> initUi
+    300:496:void initUi() -> initUi
     236:240:boolean isM300Product() -> isM300Product
-    1018:1023:boolean isTranscodedVideoFeedNeeded() -> isTranscodedVideoFeedNeeded
-    845:862:void newSaveYuvDataToJPEG(byte[],int,int) -> newSaveYuvDataToJPEG
-    865:882:void newSaveYuvDataToJPEG420P(byte[],int,int) -> newSaveYuvDataToJPEG420P
-    523:602:void notifyStatusChange() -> notifyStatusChange
-    795:842:void oldSaveYuvDataToJPEG(byte[],int,int) -> oldSaveYuvDataToJPEG
-    606:606:void onClick(android.view.View) -> onClick
+    1019:1024:boolean isTranscodedVideoFeedNeeded() -> isTranscodedVideoFeedNeeded
+    846:863:void newSaveYuvDataToJPEG(byte[],int,int) -> newSaveYuvDataToJPEG
+    866:883:void newSaveYuvDataToJPEG420P(byte[],int,int) -> newSaveYuvDataToJPEG420P
+    524:603:void notifyStatusChange() -> notifyStatusChange
+    796:843:void oldSaveYuvDataToJPEG(byte[],int,int) -> oldSaveYuvDataToJPEG
+    607:607:void onClick(android.view.View) -> onClick
     200:233:void onCreate(android.os.Bundle) -> onCreate
     191:196:void onDestroy() -> onDestroy
     178:187:void onPause() -> onPause
     147:151:void onResume() -> onResume
-    722:754:void onYuvDataReceived(android.media.MediaFormat,java.nio.ByteBuffer,int,int,int) -> onYuvDataReceived
-    889:956:void screenShot(byte[],java.lang.String,int,int) -> screenShot
+    723:755:void onYuvDataReceived(android.media.MediaFormat,java.nio.ByteBuffer,int,int,int) -> onYuvDataReceived
+    890:957:void screenShot(byte[],java.lang.String,int,int) -> screenShot
     244:247:void showToast(java.lang.String) -> showToast
     250:253:void updateTitle(java.lang.String) -> updateTitle
-    499:517:void updateUIVisibility() -> updateUIVisibility
+    500:518:void updateUIVisibility() -> updateUIVisibility
 com.dji.videostreamdecodingsample.MainActivity$1 -> com.dji.videostreamdecodingsample.MainActivity$1:
     86:86:void <init>(com.dji.videostreamdecodingsample.MainActivity,android.os.Looper) -> <init>
     89:101:void handleMessage(android.os.Message) -> handleMessage
 com.dji.videostreamdecodingsample.MainActivity$10 -> com.dji.videostreamdecodingsample.MainActivity$10:
     457:457:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    460:470:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    460:471:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
 com.dji.videostreamdecodingsample.MainActivity$11 -> com.dji.videostreamdecodingsample.MainActivity$11:
-    473:473:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    476:492:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    474:474:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    477:493:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
 com.dji.videostreamdecodingsample.MainActivity$11$1 -> com.dji.videostreamdecodingsample.MainActivity$11$1:
-    477:477:void <init>(com.dji.videostreamdecodingsample.MainActivity$11) -> <init>
-    480:489:void onResult(dji.common.error.DJIError) -> onResult
+    478:478:void <init>(com.dji.videostreamdecodingsample.MainActivity$11) -> <init>
+    481:490:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$12 -> com.dji.videostreamdecodingsample.MainActivity$12:
-    533:533:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    537:562:void onReceive(byte[],int) -> onReceive
+    534:534:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    538:563:void onReceive(byte[],int) -> onReceive
 com.dji.videostreamdecodingsample.MainActivity$13 -> com.dji.videostreamdecodingsample.MainActivity$13:
-    571:571:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    574:577:void onResult(dji.common.error.DJIError) -> onResult
+    572:572:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    575:578:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$14 -> com.dji.videostreamdecodingsample.MainActivity$14:
-    580:580:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    583:586:void onResult(dji.common.error.DJIError) -> onResult
+    581:581:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    584:587:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$15 -> com.dji.videostreamdecodingsample.MainActivity$15:
-    613:613:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    616:625:void onSurfaceTextureAvailable(android.graphics.SurfaceTexture,int,int) -> onSurfaceTextureAvailable
-    636:639:boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture) -> onSurfaceTextureDestroyed
-    629:632:void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture,int,int) -> onSurfaceTextureSizeChanged
-    645:645:void onSurfaceTextureUpdated(android.graphics.SurfaceTexture) -> onSurfaceTextureUpdated
+    614:614:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    617:626:void onSurfaceTextureAvailable(android.graphics.SurfaceTexture,int,int) -> onSurfaceTextureAvailable
+    637:640:boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture) -> onSurfaceTextureDestroyed
+    630:633:void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture,int,int) -> onSurfaceTextureSizeChanged
+    646:646:void onSurfaceTextureUpdated(android.graphics.SurfaceTexture) -> onSurfaceTextureUpdated
 com.dji.videostreamdecodingsample.MainActivity$16 -> com.dji.videostreamdecodingsample.MainActivity$16:
-    654:654:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    680:692:void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
-    657:676:void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
-    696:710:void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    655:655:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    681:693:void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    658:677:void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    697:711:void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
 com.dji.videostreamdecodingsample.MainActivity$17 -> com.dji.videostreamdecodingsample.MainActivity$17:
-    729:729:void <init>(com.dji.videostreamdecodingsample.MainActivity,android.media.MediaFormat,byte[],int,int) -> <init>
-    733:751:void run() -> run
+    730:730:void <init>(com.dji.videostreamdecodingsample.MainActivity,android.media.MediaFormat,byte[],int,int) -> <init>
+    734:752:void run() -> run
 com.dji.videostreamdecodingsample.MainActivity$18 -> com.dji.videostreamdecodingsample.MainActivity$18:
-    759:759:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    762:765:void onResult(dji.common.error.DJIError) -> onResult
+    760:760:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    763:766:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$19 -> com.dji.videostreamdecodingsample.MainActivity$19:
-    770:770:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    773:776:void onResult(dji.common.error.DJIError) -> onResult
+    771:771:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    774:777:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$2 -> com.dji.videostreamdecodingsample.MainActivity$2:
     218:218:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
     221:226:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$20 -> com.dji.videostreamdecodingsample.MainActivity$20:
-    781:781:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    784:787:void onResult(dji.common.error.DJIError) -> onResult
+    782:782:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    785:788:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$21 -> com.dji.videostreamdecodingsample.MainActivity$21:
     154:154:void <clinit>() -> <clinit>
 com.dji.videostreamdecodingsample.MainActivity$3 -> com.dji.videostreamdecodingsample.MainActivity$3:
@@ -15803,28 +15803,28 @@ com.dji.videostreamdecodingsample.MainActivity$9$2 -> com.dji.videostreamdecodin
     443:443:void <init>(com.dji.videostreamdecodingsample.MainActivity$9) -> <init>
     446:451:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$ClientThread -> com.dji.videostreamdecodingsample.MainActivity$ClientThread:
-    1134:1137:void <init>(com.dji.videostreamdecodingsample.MainActivity,java.lang.String,int) -> <init>
-    1164:1164:byte[] float2ByteArray(float) -> float2ByteArray
-    1140:1160:void run() -> run
+    1135:1138:void <init>(com.dji.videostreamdecodingsample.MainActivity,java.lang.String,int) -> <init>
+    1165:1165:byte[] float2ByteArray(float) -> float2ByteArray
+    1141:1161:void run() -> run
 com.dji.videostreamdecodingsample.MainActivity$DemoType -> com.dji.videostreamdecodingsample.MainActivity$DemoType:
     78:78:void <clinit>() -> <clinit>
     78:78:void <init>(java.lang.String,int) -> <init>
     78:78:com.dji.videostreamdecodingsample.MainActivity$DemoType valueOf(java.lang.String) -> valueOf
     78:78:com.dji.videostreamdecodingsample.MainActivity$DemoType[] values() -> values
 com.dji.videostreamdecodingsample.MainActivity$MyServerThread -> com.dji.videostreamdecodingsample.MainActivity$MyServerThread:
-    1027:1027:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
-    1104:1104:float computeAngularVelocity(float,float) -> computeAngularVelocity
-    1109:1109:float computeLinearVelocity(double) -> computeLinearVelocity
-    1123:1123:double distanceFromTargetPos(float,float) -> distanceFromTargetPos
-    1047:1099:void run() -> run
-    1113:1118:double satNormalVelocity(double) -> satNormalVelocity
+    1028:1028:void <init>(com.dji.videostreamdecodingsample.MainActivity) -> <init>
+    1105:1105:float computeAngularVelocity(float,float) -> computeAngularVelocity
+    1110:1110:float computeLinearVelocity(double) -> computeLinearVelocity
+    1124:1124:double distanceFromTargetPos(float,float) -> distanceFromTargetPos
+    1048:1100:void run() -> run
+    1114:1119:double satNormalVelocity(double) -> satNormalVelocity
 com.dji.videostreamdecodingsample.MainActivity$MyServerThread$1 -> com.dji.videostreamdecodingsample.MainActivity$MyServerThread$1:
-    1088:1088:void <init>(com.dji.videostreamdecodingsample.MainActivity$MyServerThread) -> <init>
-    1090:1090:void onResult(dji.common.error.DJIError) -> onResult
+    1089:1089:void <init>(com.dji.videostreamdecodingsample.MainActivity$MyServerThread) -> <init>
+    1091:1091:void onResult(dji.common.error.DJIError) -> onResult
 com.dji.videostreamdecodingsample.MainActivity$SendImgThread -> com.dji.videostreamdecodingsample.MainActivity$SendImgThread:
-    1172:1175:void <init>(com.dji.videostreamdecodingsample.MainActivity,java.lang.String,int) -> <init>
-    1207:1207:byte[] float2ByteArray(float) -> float2ByteArray
-    1178:1201:void run() -> run
+    1173:1176:void <init>(com.dji.videostreamdecodingsample.MainActivity,java.lang.String,int) -> <init>
+    1208:1208:byte[] float2ByteArray(float) -> float2ByteArray
+    1179:1202:void run() -> run
 com.dji.videostreamdecodingsample.SocketClient -> com.dji.videostreamdecodingsample.SocketClient:
     23:44:void <init>(java.lang.String,int) -> <init>
     46:53:void execute(byte[]) -> execute
