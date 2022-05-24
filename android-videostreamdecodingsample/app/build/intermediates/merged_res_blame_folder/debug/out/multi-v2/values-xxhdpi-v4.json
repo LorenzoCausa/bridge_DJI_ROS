@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lorenzocausa/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "outputFile": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/lorenzocausa/.gradle/caches/transforms-3/8c268f10e4c07c7f022ffc44c3d26fb2/transformed/jetified-dji-sdk-4.15.1/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

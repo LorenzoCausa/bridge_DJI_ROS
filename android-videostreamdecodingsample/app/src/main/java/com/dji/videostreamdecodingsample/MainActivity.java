@@ -944,9 +944,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             e.printStackTrace();
         }
 
-        //set max frame rate to 50 fps
+        //set max frame rate to 100 fps
         try {
-            Thread.sleep(20);
+            Thread.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
