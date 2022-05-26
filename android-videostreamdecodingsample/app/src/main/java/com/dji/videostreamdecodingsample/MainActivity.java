@@ -1130,6 +1130,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         String ip;
         int portThread;
         float altitude;
+        float barometerAltitude;
 
         ClientThread(String ip, int portThread) {
             this.ip = ip;
@@ -1145,15 +1146,20 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                 }
             }
 
-            SocketClient ThreadClient = new SocketClient(this.ip,this.portThread);
+            SocketClient ThreadClient1 = new SocketClient(this.ip,this.portThread);
+            SocketClient ThreadClient2 = new SocketClient(this.ip,this.portThread+1);
+
             while (true) {
                 mFlightControllerState = mFlightController.getState();
+                barometerAltitude=mFlightControllerState.getAircraftLocation().getAltitude();
                 altitude = mFlightControllerState.getUltrasonicHeightInMeters();
-                byte[] byteArray = float2ByteArray(altitude);
+                byte[] byteArray1 = float2ByteArray(altitude);
+                byte[] byteArray2 = float2ByteArray(barometerAltitude);
 
-                ThreadClient.execute(byteArray);
+                ThreadClient1.execute(byteArray1);
+                ThreadClient2.execute(byteArray2);
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(50);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
