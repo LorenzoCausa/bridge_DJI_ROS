@@ -12,12 +12,12 @@
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable_abc_item_background_holo_light.xml.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable_abc_item_background_holo_light.xml.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/color_abc_secondary_text_material_light.xml.flat",
@@ -60,12 +60,12 @@
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -80,16 +80,16 @@
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/raw_iframe_1344x720_wm620.h264.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/raw/iframe_1344x720_wm620.h264"
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/layout_select_dialog_multichoice_material.xml.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/raw_iframe_960x720_wm160.h264.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/raw/iframe_960x720_wm160.h264"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/layout_select_dialog_multichoice_material.xml.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/raw_iframe_1344x720_wm620.h264.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/raw/iframe_1344x720_wm620.h264"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -100,12 +100,12 @@
         "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/drawable-xhdpi-v4/compass.png"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable_btn_draw_end.png.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/drawable/btn_draw_end.png"
-    },
-    {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable_btn_draw_end.png.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/drawable/btn_draw_end.png"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -264,20 +264,20 @@
         "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/anim/core_other.xml"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/color_abc_tint_edittext.xml.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-xxhdpi-v4_scan_qr_center_line.png.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/11b80b730202a77727a0324c5d2d1222/transformed/jetified-dji-sdk-4.15.1/res/drawable-xxhdpi-v4/scan_qr_center_line.png"
     },
     {
-        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/lab-pc/.gradle/caches/transforms-3/bfcbf161df86e8959e8196b0cb0afd0e/transformed/appcompat-1.2.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/merged_res/debug/anim_abc_slide_in_bottom.xml.flat",

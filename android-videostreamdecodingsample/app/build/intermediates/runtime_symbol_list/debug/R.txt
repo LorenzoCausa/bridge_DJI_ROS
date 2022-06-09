@@ -1004,6 +1004,7 @@ int id blocking 0x7f080056
 int id bottom 0x7f080057
 int id bounce 0x7f080058
 int id btnMotors 0x7f080059
+int id btnRecord 0x7f08013b
 int id btn_land 0x7f08005a
 int id btn_open 0x7f08005b
 int id btn_set_andr_bridge 0x7f08005c

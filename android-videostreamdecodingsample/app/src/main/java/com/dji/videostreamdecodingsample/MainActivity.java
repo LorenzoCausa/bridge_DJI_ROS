@@ -107,6 +107,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private Button mBtnTakeOff;
     private Button mBtnLand;
     private ToggleButton mSwtcEnableVirtualStick;
+    private ToggleButton mRecordVideo;
     private TextView mTextView;
     private TextView target_tv;
 
@@ -302,6 +303,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         mBtnSimulator = (ToggleButton) findViewById(R.id.btn_start_simulator); // per fare tutto in simulazione
         mTextView = (TextView) findViewById(R.id.textview_simulator); // element to show the simulator state infos
         mSwtcEnableVirtualStick = (ToggleButton) findViewById(R.id.swtc_enable_virtual_stick); //enable/disable Virtual Control Mode
+        mRecordVideo = (ToggleButton) findViewById(R.id.btnRecord); //enable/disable Video recording
         target_tv = (TextView) findViewById(R.id.target_ttv);
         thermalVisualButton=(Button) findViewById(R.id.mythermalVisualButton);
         mMotorsButton = (ToggleButton) findViewById(R.id.btnMotors);
@@ -491,6 +493,38 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                 }
             }
         });
+
+        mRecordVideo.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (mFlightController != null) {
+                    if(isChecked){
+                        mCameras.get(1).startRecordVideo(new CommonCallbacks.CompletionCallback() {
+                            @Override
+                            public void onResult(DJIError djiError) {
+                                if (djiError != null) {
+                                    showToast(djiError.getDescription());
+                                } else {
+                                    showToast("Video recording started");
+                                }
+                            }
+                        });
+                    }
+                    else{
+                        mCameras.get(1).stopRecordVideo(new CommonCallbacks.CompletionCallback() {
+                            @Override
+                            public void onResult(DJIError djiError) {
+                                if (djiError != null) {
+                                    showToast(djiError.getDescription());
+                                } else {
+                                    showToast("Video recording stopped");
+                                }
+                            }
+                        });
+                    }
+                }
+            }
+        });
         updateUIVisibility();
     }
 
@@ -568,7 +602,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         } else {
             if (!product.getModel().equals(Model.UNKNOWN_AIRCRAFT)) {
                 mCameras = product.getCameras();
-                mCameras.get(1).setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, new CommonCallbacks.CompletionCallback() {
+                mCameras.get(1).setMode(SettingsDefinitions.CameraMode.RECORD_VIDEO, new CommonCallbacks.CompletionCallback() {
                     @Override
                     public void onResult(DJIError djiError) {
                         if (djiError != null) {

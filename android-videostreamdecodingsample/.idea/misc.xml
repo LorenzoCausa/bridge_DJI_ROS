@@ -9,9 +9,9 @@
         <entry key="app/src/main/res/drawable/round_btn_pressed.xml" value="0.2845" />
         <entry key="app/src/main/res/drawable/selector_back_button.xml" value="0.2845" />
         <entry key="app/src/main/res/layout-sw600dp/activity_connection.xml" value="0.18515625" />
-        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_connection.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10268948655256724" />
       </map>
     </option>
   </component>

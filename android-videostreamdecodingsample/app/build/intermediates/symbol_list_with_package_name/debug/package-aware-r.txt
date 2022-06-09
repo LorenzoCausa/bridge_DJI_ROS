@@ -1005,6 +1005,7 @@ id blocking
 id bottom
 id bounce
 id btnMotors
+id btnRecord
 id btn_land
 id btn_open
 id btn_set_andr_bridge

@@ -97,7 +97,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="243dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textview_simulator"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
@@ -184,6 +184,17 @@
             android:textOff="Turn motors On"
             android:textOn="Turn motors Off" />
 
+        <ToggleButton
+            android:id="@+id/btnRecord"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/swtc_enable_virtual_stick"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:text="Start recording"
+            android:textColor="@color/colorWhite"
+            android:textOff="Start recording"
+            android:textOn="Stop recording" />
 
 
     </RelativeLayout>
