@@ -476,6 +476,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mFlightController != null) {
+                    mFlightController.setVirtualStickAdvancedModeEnabled(isChecked); // it uses GPS to compensate wind
                     mFlightController.setVirtualStickModeEnabled(isChecked, new CommonCallbacks.CompletionCallback() {
                         @Override
                         public void onResult(DJIError djiError) {

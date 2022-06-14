@@ -1,4 +1,4 @@
-#Thu Jun 09 10:29:03 CEST 2022
+#Tue Jun 14 11:54:05 CEST 2022
 base.0=/home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
