@@ -24,14 +24,14 @@
 
     <TextureView
         android:id="@+id/livestream_preview_ttv"
-        android:layout_width="375dp"
-        android:layout_height="225dp"
+        android:layout_width="558dp"
+        android:layout_height="245dp"
         android:layout_below="@id/main_title_rl"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:alpha="50"
         android:visibility="visible" />

@@ -1,16 +1,16 @@
+Marking id:btn_take_off:2131230815 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:btn_land:2131230811 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:btn_start_simulator:2131230814 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:textview_simulator:2131231001 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:swtc_enable_virtual_stick:2131230980 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:btnRecord:2131230810 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:btn_set_andr_bridge:2131230813 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:textview_ip_addr:2131231000 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:submit_area:2131230979 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:zxing_viewfinder_view:2131231035 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:tag_unhandled_key_listeners:2131230989 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:multiply:2131230907 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:target_ttv:2131230990 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:mythermalVisualButton:2131230908 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:btnMotors:2131230809 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:activity_main_screen_shot:2131230786 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:title_template:2131231005 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:title_tv:2131231006 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:livestream_preview_ttv:2131230897 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:livestream_preview_sf:2131230896 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:list_item:2131230895 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking layout:activity_main:2131427357 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking raw:iframe_1280x720_ins:2131623951 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking raw:iframe_1280x720_wm220:2131623956 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
@@ -52,15 +52,16 @@ Marking raw:iframe_1280x720_3s:2131623950 reachable: referenced from /home/lab-p
 Marking raw:iframe_896x480:2131623979 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking raw:iframe_848x480:2131623978 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking raw:iframe_640x480:2131623974 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:textView2:2131230996 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:text_connection_status:2131230997 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:text_model_available:2131230998 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:text_product_info:2131230999 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:easeOut:2131230855 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:btn_land:2131230811 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:edittext_bridge_ip_addr:2131230858 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:textview_ip_addr:2131231000 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:editTextIP:2131230856 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking id:btn_open:2131230812 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
-Marking id:textView:2131230995 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:enable_android_bridge:2131230859 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:edittext_bridge_ip_addr:2131230858 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:btn_set_andr_bridge:2131230813 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+Marking id:textView2:2131230996 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking string:sdk_version:2131690425 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking layout:activity_connection:2131427356 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
 Marking string:product_information:2131690422 reachable: referenced from /home/lab-pc/Desktop/bridge_DJI_ROS_new/android-videostreamdecodingsample/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
@@ -6348,7 +6349,7 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/btn_open : reachable=true
 @id/btn_set_andr_bridge : reachable=true
 @id/btn_start_simulator : reachable=true
-@id/btn_take_off : reachable=false
+@id/btn_take_off : reachable=true
 @id/buttonPanel : reachable=true
 @id/cache_measures : reachable=false
 @id/center : reachable=false
@@ -6388,8 +6389,8 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/dragUp : reachable=false
 @id/easeIn : reachable=false
 @id/easeInOut : reachable=false
-@id/easeOut : reachable=true
-@id/editTextIP : reachable=false
+@id/easeOut : reachable=false
+@id/editTextIP : reachable=true
 @id/edit_query : reachable=true
 @id/edittext_bridge_ip_addr : reachable=true
 @id/enable_android_bridge : reachable=true
@@ -6430,7 +6431,7 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/listMode : reachable=false
 @id/list_item : reachable=true
 @id/livestream_preview_sf : reachable=true
-@id/livestream_preview_ttv : reachable=false
+@id/livestream_preview_ttv : reachable=true
 @id/log_dlg_content : reachable=false
 @id/log_dlg_control : reachable=false
 @id/log_dlg_lock : reachable=false
@@ -6440,8 +6441,8 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/message : reachable=true
 @id/middle : reachable=false
 @id/motion_base : reachable=true
-@id/multiply : reachable=true
-@id/mythermalVisualButton : reachable=false
+@id/multiply : reachable=false
+@id/mythermalVisualButton : reachable=true
 @id/never : reachable=false
 @id/none : reachable=true
 @id/normal : reachable=false
@@ -6513,7 +6514,7 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/stop : reachable=true
 @id/submenuarrow : reachable=true
 @id/submit_area : reachable=true
-@id/swtc_enable_virtual_stick : reachable=false
+@id/swtc_enable_virtual_stick : reachable=true
 @id/tabMode : reachable=false
 @id/tag_accessibility_actions : reachable=true
 @id/tag_accessibility_clickable_spans : reachable=true
@@ -6568,7 +6569,7 @@ Marking id:fragment_container_view_tag:2131230867 used because it matches string
 @id/zxing_preview_failed : reachable=false
 @id/zxing_prewiew_size_ready : reachable=false
 @id/zxing_status_view : reachable=false
-@id/zxing_viewfinder_view : reachable=true
+@id/zxing_viewfinder_view : reachable=false
 @integer/abc_config_activityDefaultDur : reachable=false
 @integer/abc_config_activityShortDur : reachable=false
 @integer/cancel_button_image_alpha : reachable=false
@@ -10074,6 +10075,7 @@ The root reachable resources are:
  id:btn_open:2131230812
  id:btn_set_andr_bridge:2131230813
  id:btn_start_simulator:2131230814
+ id:btn_take_off:2131230815
  id:buttonPanel:2131230816
  id:chronometer:2131230825
  id:close_btn:2131230826
@@ -10086,7 +10088,7 @@ The root reachable resources are:
  id:decor_content_parent:2131230837
  id:default_activity_button:2131230838
  id:dimensions:2131230842
- id:easeOut:2131230855
+ id:editTextIP:2131230856
  id:edit_query:2131230857
  id:edittext_bridge_ip_addr:2131230858
  id:enable_android_bridge:2131230859
@@ -10110,9 +10112,10 @@ The root reachable resources are:
  id:linear:2131230893
  id:list_item:2131230895
  id:livestream_preview_sf:2131230896
+ id:livestream_preview_ttv:2131230897
  id:message:2131230904
  id:motion_base:2131230906
- id:multiply:2131230907
+ id:mythermalVisualButton:2131230908
  id:none:2131230910
  id:notification_background:2131230912
  id:notification_main_column:2131230913
@@ -10152,6 +10155,7 @@ The root reachable resources are:
  id:stop:2131230977
  id:submenuarrow:2131230978
  id:submit_area:2131230979
+ id:swtc_enable_virtual_stick:2131230980
  id:tag_accessibility_actions:2131230982
  id:tag_accessibility_clickable_spans:2131230983
  id:tag_accessibility_heading:2131230984
@@ -10185,7 +10189,6 @@ The root reachable resources are:
  id:visible_removing_fragment_view_tag:2131231018
  id:withText:2131231020
  id:wrap_content:2131231022
- id:zxing_viewfinder_view:2131231035
  integer:status_bar_notification_info_maxnum:2131296260
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_bar_up_container:2131427329
