@@ -9,6 +9,9 @@ Android application that act as bridge between DJI controller and linux computer
  - Redmi 5g
  - Lenovo Tablet 2 A10-70F
  
+## How to install it
+Open the project with Android Studio, install it in your android mobile device.
+ 
 ## Note
 This mobile application is part of my master thesis project, for more info see the correspondant chapter of the written paper.
 
